@@ -24,3 +24,9 @@ if(randomNumber1 > randomNumber2){
 }else{
     document.querySelector('h1').innerHTML = 'Draw'
 }
+
+// const refreshPages = document.querySelector('.btn')
+
+function refreshPage(){
+   location.reload();
+}
